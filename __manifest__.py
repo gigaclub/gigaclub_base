@@ -5,10 +5,9 @@
     'category': 'GigaClub',
     'author': 'GigaClub',
     'website': 'https://GigaClub.net/',
-    'license': 'MIT',
-    'depends': [],
-    'data': [],
-    'demo': [],
+    'license': 'Other proprietary',
+    'depends': ["base"],
+    'data': ["views/menu_views.xml", "views/gc_user_views.xml", "security/security.xml", "security/ir.model.access.csv"],
     'installable': True,
     'auto_install': False
 }
