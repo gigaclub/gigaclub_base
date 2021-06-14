@@ -34,7 +34,7 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <menuitem id="gc_menu_translation" parent="gc_menu_root" action="gc_user_action" name="Users" />
+        <menuitem id="gc_menu_user" parent="gc_menu_root" action="gc_user_action" name="Users" />
 
     </data>
 </odoo>
