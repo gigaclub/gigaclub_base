@@ -3,6 +3,7 @@ from odoo import fields, models, api
 
 class GCUser(models.Model):
     _name = 'gc.user'
+    _description = 'GigaClub User'
 
     name = fields.Char()
     mc_uuid = fields.Char()

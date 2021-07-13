@@ -3,11 +3,17 @@
     'version': '14.0.1.0.0',
     'summary': 'GigaClub Base Module',
     'category': 'GigaClub',
-    'author': 'GigaClub',
+    'author': 'GigaClub.net',
     'website': 'https://GigaClub.net/',
-    'license': 'Other proprietary',
-    'depends': ["base"],
-    'data': ["views/menu_views.xml", "views/gc_user_views.xml", "security/security.xml", "security/ir.model.access.csv"],
+    'license': 'GPL-3',
+    'depends': ["base_setup"],
+    'data': [
+        "views/menu_views.xml",
+        "views/gc_user_views.xml",
+        "views/res_config_settings_views.xml",
+        "security/security.xml",
+        "security/ir.model.access.csv"
+    ],
     'installable': True,
     'auto_install': False
 }
