@@ -9,7 +9,7 @@
             <field name="inherit_id" ref="base.res_config_settings_view_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//div[hasclass('settings')]" position="inside">
-                    <div class="app_settings_block" data-string="GigaClub" string="GigaClub" data-key="gigaclub_base" groups="gigaclub_base.group_gigaclub">
+                    <div id="gigaclub_base_settings" class="app_settings_block" data-string="GigaClub" string="GigaClub" data-key="gigaclub_base" groups="gigaclub_base.group_gigaclub">
                         <h2>GigaClub</h2>
                     </div>
                 </xpath>
