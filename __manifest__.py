@@ -8,9 +8,9 @@
     'license': 'GPL-3',
     'depends': ["base_setup"],
     'data': [
+        "views/res_config_settings_views.xml",
         "views/menu_views.xml",
         "views/gc_user_views.xml",
-        "views/res_config_settings_views.xml",
         "security/security.xml",
         "security/ir.model.access.csv"
     ],
